@@ -2,7 +2,10 @@ package xyz.terrific.utils;
 
 import java.io.File;
 
-// Author: Eric Golde
+/**
+ * @author Eric Golde
+ * This helps with some file path's
+ */
 public enum OSHelper {
     WINDOWS("AppData" + File.separator + "Roaming" + File.separator + ".minecraft"),
     MAC("Library" + File.separator + "Applacation Support" + File.separator + "minecraft"),
