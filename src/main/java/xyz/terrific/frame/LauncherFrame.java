@@ -43,6 +43,7 @@ public class LauncherFrame extends JFrame {
         btn_play = new JButton();
         progressbar = new JProgressBar();
         image_label = new JLabel();
+        some_text = new JLabel();
 
         //======== this ========
         setMinimumSize(new Dimension(950, 540));
@@ -68,7 +69,12 @@ public class LauncherFrame extends JFrame {
         contentPane.add(progressbar);
         progressbar.setBounds(220, 415, 509, 15);
         contentPane.add(image_label);
-        image_label.setBounds(33, 10, 881, 390);
+        image_label.setBounds(32, 10, 881, 390);
+
+        //---- some_text ----
+        some_text.setText(bundle.getString("LauncherFrame.some_text.text"));
+        contentPane.add(some_text);
+        some_text.setBounds(80, 440, 190, 45);
 
         {
             // compute preferred size
@@ -93,5 +99,6 @@ public class LauncherFrame extends JFrame {
     public JButton btn_play;
     public JProgressBar progressbar;
     public JLabel image_label;
+    public JLabel some_text;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }
