@@ -56,7 +56,7 @@ public class StartGame {
 
                     frame.progressbar.setValue(i);
                     try {
-                        Thread.sleep((long) (100 + (Math.random() * (20 - 1 + 1))));
+                        Thread.sleep((long) (100 + (Math.random() * (30 - 10 + 1))));
                     } catch (InterruptedException e) {
                         logger.error("LoadingBar Thread:  " + e.getMessage());
                     }
