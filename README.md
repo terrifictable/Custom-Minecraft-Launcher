@@ -1,5 +1,7 @@
 # Custom Minecraft Launcher
-It's a Custom Minecraft Launcher made using [Java17](https://www.oracle.com/java/technologies/downloads/#java17) and [JFrame](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/swing/JFrame.html).
+It's a Custom Minecraft Launcher made using 
+[Java17](https://www.oracle.com/java/technologies/downloads/#java17) -> [Maven](https://maven.apache.org/) 
+and [JFrame](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/swing/JFrame.html).
 <br>
 It also uses [FlatLaf](https://github.com/TerrificTable/Custom-Minecraft-Launcher#flatlaf) for the `Material Darker` JFrame theme.
 <br>
