@@ -4,6 +4,6 @@ It's a Custom Minecraft Launcher made using [Java17](https://www.oracle.com/java
 It also uses [FlatLaf]() for the `Material Darker` JFrame theme.
 
 <br><br>
-FlatLaf:<br>
+## FlatLaf:<br>
 - Website: https://www.formdev.com/flatlaf/
 - Github: https://github.com/JFormDesigner/FlatLaf/
