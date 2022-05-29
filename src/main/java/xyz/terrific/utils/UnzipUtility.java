@@ -8,7 +8,6 @@ import java.util.zip.ZipInputStream;
  * This utility extracts files and directories of a standard zip file to
  * a destination directory.
  * @author www.codejava.net
- *
  */
 public class UnzipUtility {
     /**
