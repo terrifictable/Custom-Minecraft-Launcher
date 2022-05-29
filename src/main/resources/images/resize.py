@@ -2,6 +2,7 @@ from PIL import Image
 import sys
 
 
+# Used to Resize the Images to fit inside the JFrame Label Image thingy
 def resizeAndCrop(imgPath):
     img = Image.open(imgPath)
     resized_image = img.resize((int(sys.argv[1]), int(sys.argv[2])))
