@@ -1,0 +1,2 @@
+keybind:I
+S:MODE:Name:TerrificTable

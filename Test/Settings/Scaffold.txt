@@ -1,0 +1,4 @@
+toggled:Off
+keybind:NONE
+S:BOOL:Swing:On
+S:BOOL:Tower:On

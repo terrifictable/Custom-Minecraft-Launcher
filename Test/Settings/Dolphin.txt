@@ -1,0 +1,3 @@
+toggled:Off
+keybind:NONE
+S:NUM:Speed:0.4

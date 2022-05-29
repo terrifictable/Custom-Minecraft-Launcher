@@ -1,0 +1,4 @@
+layout:standard
+layout_index:0
+image:snowy_mountains.jpg
+image_index:0

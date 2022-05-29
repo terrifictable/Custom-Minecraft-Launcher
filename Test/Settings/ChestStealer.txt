@@ -1,0 +1,4 @@
+toggled:On
+keybind:NONE
+S:MODE:Mode:Side
+S:BOOL:AutoSteal:On

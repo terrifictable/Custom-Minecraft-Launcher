@@ -1,0 +1,5 @@
+toggled:Off
+keybind:NONE
+S:BOOL:Open Inventory:Off
+S:BOOL:Drop:On
+S:NUM:Delay:3.0

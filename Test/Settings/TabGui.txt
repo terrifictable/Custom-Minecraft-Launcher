@@ -1,0 +1,6 @@
+toggled:On
+keybind:NONE
+S:BOOL:Rainbow:Off
+S:NUM:Rainbow Sat:1.0
+S:NUM:Rainbow Bright:1.0
+S:NUM:RainbowSpeed:4.0

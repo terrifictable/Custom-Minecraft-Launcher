@@ -1,0 +1,47 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.14.1" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "LauncherFrame"
+	"i18n.keyPrefix": "LauncherFrame"
+	contentType: "form/swing"
+	root: new FormRoot {
+		auxiliary() {
+			"JavaCodeGenerator.defaultVariableModifiers": 1
+		}
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"minimumSize": new java.awt.Dimension( 950, 540 )
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosing", "thisWindowClosing", true ) )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn_play"
+				"text": new FormMessage( null, "LauncherFrame.btn_play.text" )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btn_playMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 355
+				"y": 440
+				"width": 235
+				"height": 50
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressbar"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 220
+				"y": 415
+				"width": 509
+				"height": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "image_label"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 33
+				"y": 10
+				"height": 390
+				"width": 881
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 950, 540 )
+		} )
+	}
+}

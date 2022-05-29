@@ -1,0 +1,6 @@
+toggled:On
+keybind:NONE
+S:BOOL:Watermark:On
+S:BOOL:FPS:On
+S:NUM:Max FPS:500.0
+S:BOOL:Coords:On

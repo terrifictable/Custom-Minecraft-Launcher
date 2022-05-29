@@ -1,0 +1,5 @@
+toggled:Off
+keybind:NONE
+S:BOOL:Explosion:On
+S:NUM:Horizontal:0.0
+S:NUM:Horizontal:0.0
