@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"xyz.terrific.frame","l":"LauncherFrame"},{"p":"xyz.terrific.utils","l":"Logger"},{"p":"xyz.terrific","l":"Main"},{"p":"xyz.terrific.utils","l":"OSHelper"},{"p":"xyz.terrific","l":"StartGame"},{"p":"xyz.terrific.utils","l":"UnzipUtility"}];updateSearchResults();
