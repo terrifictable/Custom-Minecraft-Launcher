@@ -5,14 +5,12 @@ import xyz.terrific.frame.LauncherFrame;
 import xyz.terrific.utils.Logger;
 
 import javax.swing.*;
-import java.net.URL;
 
 public class Main {
 
     public static LauncherFrame frame;
     public static Logger logger;
 
-    public static String icon_url = "https://example.com";
 
     /**
      * Creates the Window and a new Logger, configures Windows and shows the window
@@ -32,6 +30,7 @@ public class Main {
 
             frame.image_label.setIcon(new ImageIcon("src/main/resources/images/label_image.png"));
             frame.progressbar.setVisible(false);
+            frame.some_text.setVisible(false);
 
 
             UIManager.setLookAndFeel(new FlatMaterialDarkerContrastIJTheme());
