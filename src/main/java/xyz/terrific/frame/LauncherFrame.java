@@ -58,6 +58,7 @@ public class LauncherFrame extends JFrame {
 
         //---- btn_play ----
         btn_play.setText(bundle.getString("LauncherFrame.btn_play.text"));
+        btn_play.putClientProperty("author", "TerrificTable55");
         btn_play.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {

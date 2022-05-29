@@ -16,6 +16,7 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "btn_play"
 				"text": new FormMessage( null, "LauncherFrame.btn_play.text" )
+				"$client.author": "TerrificTable55"
 				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btn_playMouseClicked", true ) )
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 				"x": 355
