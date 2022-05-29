@@ -14,8 +14,11 @@ import static xyz.terrific.Main.frame;
 
 public class StartGame {
 
+    /**
+     * Launches Minecraft (or more specific, it starts the Client.jar file)
+     * @throws IOException
+     */
     public static void start() throws IOException {
-
         Logger logger = new Logger("GAME");
         // logger.warning("Downloading Game!");
 
@@ -23,18 +26,20 @@ public class StartGame {
         File minecraft_directory = new File(OSHelper.getOS().getMc());
         File minecraft_assets = new File(minecraft_directory + "assets");
 
+        /*
         File natives = new File(System.getProperty("user.dir") + File.separator + "natives.zip");
         File libraries = new File(System.getProperty("user.dir") + File.separator + "libraries.zip");
         File jar = new File(System.getProperty("user.dir") + File.separator + "client.jar");
 
-        // FileUtils.copyURLToFile(new URL("https://anonfiles.com/Feg1T5k8yc/natives_zip"), natives);
-        // FileUtils.copyURLToFile(new URL(""), libraries);
-        // FileUtils.copyURLToFile(new URL(""), jar);
-        // logger.success("Downloaded Game!");
+        FileUtils.copyURLToFile(new URL("https://anonfiles.com/Feg1T5k8yc/natives_zip"), natives);
+        FileUtils.copyURLToFile(new URL(""), libraries);
+        FileUtils.copyURLToFile(new URL(""), jar);
+        logger.success("Downloaded Game!");
+        */
 
-        natives = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\libraries.zip");
-        libraries = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\natives.zip");
-        jar = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\test.jar");
+        File natives = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\libraries.zip");
+        File libraries = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\natives.zip");
+        File jar = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\test.jar");
 
         UnzipUtility unzip = new UnzipUtility();
         unzip.unzip(natives.toString(), System.getProperty("user.dir") + File.separator + "natives");
