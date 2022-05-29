@@ -39,7 +39,7 @@ public class StartGame {
 
         File natives = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\libraries.zip");
         File libraries = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\natives.zip");
-        File jar = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\test.jar");
+        File jar = new File("D:\\Java_Projects\\minecraft_launcher\\misc\\client.jar");
 
         UnzipUtility unzip = new UnzipUtility();
         unzip.unzip(natives.toString(), System.getProperty("user.dir") + File.separator + "natives");
