@@ -1,6 +1,0 @@
-toggled:Off
-keybind:NONE
-S:NUM:Range:4.0
-S:BOOL:Players:On
-S:BOOL:Mobs:On
-S:BOOL:Animals:On

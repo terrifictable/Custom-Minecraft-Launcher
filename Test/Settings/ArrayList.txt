@@ -1,8 +1,0 @@
-toggled:On
-keybind:NONE
-S:BOOL:Rainbow:On
-S:MODE:Rainbow Mode:Wave
-S:NUM:Rainbow Amplifier:100.0
-S:NUM:Rainbow Sat:1.0
-S:NUM:Rainbow Bright:1.0
-S:NUM:RainbowSpeed:3.0

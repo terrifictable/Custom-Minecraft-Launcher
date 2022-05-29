@@ -1,3 +1,0 @@
-toggled:Off
-toggled:Off
-keybind:RSHIFT

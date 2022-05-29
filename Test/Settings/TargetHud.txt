@@ -1,3 +1,0 @@
-toggled:Off
-keybind:NONE
-S:MODE:Targets:Pointed

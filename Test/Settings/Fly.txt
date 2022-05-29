@@ -1,4 +1,0 @@
-toggled:Off
-keybind:F
-S:MODE:Mode:Normal
-S:NUM:Speed:0.1

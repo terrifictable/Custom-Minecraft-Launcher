@@ -1,3 +1,0 @@
-toggled:Off
-keybind:NONE
-S:NUM:Speed:1.1

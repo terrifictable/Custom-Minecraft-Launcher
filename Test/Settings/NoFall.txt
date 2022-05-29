@@ -1,3 +1,0 @@
-toggled:Off
-keybind:N
-S:MODE:Mode:Packet
