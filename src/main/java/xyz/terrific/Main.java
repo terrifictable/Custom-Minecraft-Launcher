@@ -11,6 +11,8 @@ public class Main {
     public static LauncherFrame frame;
     public static Logger logger;
 
+    public static String location_resource = "src/main/resources/";
+
 
     /**
      * Creates the Window and a new Logger, configures Windows and shows the window
@@ -26,9 +28,9 @@ public class Main {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setResizable(false);
 
-            frame.setIconImage(new ImageIcon("src/main/resources/images/test.png").getImage());
+            frame.setIconImage(new ImageIcon(location_resource + "images/test.png").getImage());
 
-            frame.image_label.setIcon(new ImageIcon("src/main/resources/images/label_image.png"));
+            frame.image_label.setIcon(new ImageIcon(location_resource + "images/label_image.png"));
             frame.progressbar.setVisible(false);
             frame.some_text.setVisible(false);
 
