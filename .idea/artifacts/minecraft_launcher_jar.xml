@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="minecraft_launcher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/minecraft_launcher_jar</output-path>
+    <root id="archive" name="minecraft_launcher.jar">
+      <element id="module-output" name="minecraft_launcher" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-io-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/flatlaf-demo-2.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
